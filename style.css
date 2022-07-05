@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.left-container {
+  position: fixed;
+  width: 400px;
+  height: 100vh;
+  background-color: darkolivegreen;
+}
+
+.photo-contact {
+  position: absolute;
+  top: 80px;
+  text-align: center;
+}
+
+.photo {
+  width: 45%;
+  border-radius: 15%;
+}
+
+.contact-btn {
+  width: 50%;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  font-size: 1, 1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contact-btn:hover {
+  background-color: blue;
+  color: white;
+  transition: 1s;
+}
+
+.right-container {
+  position: absolute;
+  left: 400px;
+}
+
+.top-bar {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.title {
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+.menu {
+  font-size: 1.1rem;
+  padding: 0 15px;
+}
+.list-menu {
+  float: right;
+  padding-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+#profile {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+#about {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#exp {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#kontak {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#footer {
+  padding-top: 100px;
+  text-align: center;
+}
+
+p,
+li {
+  line-height: 200%;
+  text-align: justify;
+}
+
+.mail {
+  color: blue;
+}
+
+tab {
+  display: inline-block;
+  margin-left: 100px;
+}
